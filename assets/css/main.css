@@ -1273,3 +1273,27 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+
+
+.info-item {
+  display: flex;
+  align-items: center; /* يخلي النص والأيقونة في نفس المستوى */
+}
+
+.info-item a {
+  display: flex;
+  align-items: center;
+}
+
+.info-item i {
+  font-size: 24px;     /* حجم الأيقونة */
+  margin-right: 10px;  /* مسافة بين الأيقونة والكلمة */
+}
+
+.info-item h3 {
+  margin: 0;           /* نشيل أي margin افتراضي */
+  font-size: 18px;     /* حجم الكلمة مناسب للأيقونة */
+  line-height: 1;      /* يخلي النص مظبوط مع الأيقونة */
+}
